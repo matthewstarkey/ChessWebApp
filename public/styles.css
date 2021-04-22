@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(170, 247, 215);
+}
+
+#board {
+    display: flex;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    margin-top: 150px;
+    flex-wrap: wrap;
+    outline: grey;
+    outline-width: 3px;
+}
+
+.tile {
+    flex-basis: 98px;
+    display: flex;
+    width: 98px;
+    height: 100px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+
+.tile-dark {
+    background-color: grey;
+}
+
+.tile-light{
+    background-color: white;
+}
+
+.highlight {
+    background-color: rgb(255, 255, 0);
+}
+
+.piece {
+    width: 50px;
+    margin: auto;
+}
